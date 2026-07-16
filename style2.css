@@ -151,3 +151,33 @@ footer {
   .two-col { grid-template-columns: 1fr; }
   nav .links { gap: 16px; font-size: 0.85rem; }
 }
+
+/* BLOG */
+.post-list { display: flex; flex-direction: column; gap: 20px; }
+.post-preview {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 28px;
+  display: block;
+}
+.post-preview .post-date { font-size: 0.8rem; color: var(--primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.post-preview h3 { font-size: 1.25rem; margin-top: 8px; }
+.post-preview p { color: var(--muted-foreground); margin-top: 8px; margin-bottom: 0; }
+
+.post-header { text-align: center; margin-bottom: 40px; }
+.post-header .post-date { font-size: 0.85rem; color: var(--primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.post-header h1 { font-size: 2.2rem; margin-top: 12px; }
+
+.post-body { color: var(--foreground); font-size: 1.05rem; }
+.post-body p { margin: 0 0 20px; }
+.post-body h2 { font-size: 1.4rem; margin: 36px 0 14px; }
+.post-body .callout {
+  background: var(--secondary);
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin: 24px 0;
+  font-size: 0.95rem;
+  color: var(--plum);
+}
+.back-link { display: inline-block; margin-bottom: 24px; font-weight: 700; color: var(--primary); }
